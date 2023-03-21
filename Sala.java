@@ -13,6 +13,7 @@ public class Sala {
         this.portaSa = portaSa;
         this.maximo = maximo;
         this.nome = nome;
+        this.quantos = quantos;
     }
     
     public String getSala(){
@@ -62,10 +63,6 @@ public class Sala {
     }
     
     public void exibeSala(){
-        System.out.printf(getSala());
-        System.out.print(getMaximo());
-        System.out.print(getQuantos());
-        System.out.print(this.portaEn);
-        System.out.print(this.portaSa);
+        //nem sei o que colocar aqui.
     }
 }

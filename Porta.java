@@ -76,4 +76,21 @@ public class Porta {
             return this.aberta = false;
         }
     }
+    
+    // é para retornar int nessa proximaCor
+    public void proximaCor(){
+        //também não sei fazer essa ._.
+    }
+    
+    public int pinta(int cor){
+        if(cor == cor){
+            return this.cor = this.cor + 1;
+        }
+        else if(cor >= 5){
+            return this.cor = 1;
+        }
+        else{
+            return this.cor;
+        }
+    }
 }
