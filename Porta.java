@@ -77,13 +77,20 @@ public class Porta {
         }
     }
     
-    // é para retornar int nessa proximaCor
-    public void proximaCor(){
-        //também não sei fazer essa ._.
+    public int proximaCor(){
+        if(cor < 5){
+            return this.cor;
+        }
+        else if(cor >= 5){
+            return this.cor = 1;
+        }
+        else{
+            return this.cor;
+        }
     }
     
-    public int pinta(int cor){
-        if(cor == cor){
+    public int pinta(int cor2){
+        if(cor == cor2){
             return this.cor = this.cor + 1;
         }
         else if(cor >= 5){
