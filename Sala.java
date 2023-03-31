@@ -63,6 +63,8 @@ public class Sala {
     }
     
     public void exibeSala(){
-        //nem sei o que colocar aqui.
+        System.out.printf("Nome da sala: "+this.nome+"\n"+"Cor da porta de Entrada: "+this.portaEn.getCor()+"\n"+"Está aberta: "+this.portaEn.isAberta());
+        System.out.printf("\n"+"Cor da porta de Saída: "+this.portaSa.getCor()+"\n"+"Está aberta: "+this.portaSa.isAberta()+"\n"+"Máximo de pessoas na Sala: "+this.maximo);
+        System.out.printf("\n"+"Número de pessoas na Sala: "+this.quantos);
     }
 }

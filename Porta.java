@@ -37,8 +37,8 @@ public class Porta {
         }
     }
 
-    public void getCor() {
-        System.out.println(this.cor);
+    public int getCor() {
+        return this.cor;
     }
 
     public String getDescricaoCor(){
@@ -97,7 +97,7 @@ public class Porta {
             return this.cor = 1;
         }
         else{
-            return this.cor;
+            return this.cor = cor2;
         }
     }
 }
