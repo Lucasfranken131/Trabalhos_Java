@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Sala
+comment1.params=nome\ portaEn\ portaSa\ maximo\ quantos
+comment1.target=Sala(java.lang.String,\ Porta,\ Porta,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getSala()
+comment3.params=
+comment3.target=int\ getMaximo()
+comment4.params=
+comment4.target=int\ getQuantos()
+comment5.params=
+comment5.target=boolean\ estaCheia()
+comment6.params=
+comment6.target=boolean\ entra()
+comment7.params=
+comment7.target=boolean\ sai()
+comment8.params=
+comment8.target=void\ exibeSala()
+numComments=9
