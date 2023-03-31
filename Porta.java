@@ -78,14 +78,11 @@ public class Porta {
     }
     
     public int proximaCor(){
-        if(cor < 5){
-            return this.cor;
-        }
-        else if(cor >= 5){
+        if(cor >= 5){
             return this.cor = 1;
         }
         else{
-            return this.cor;
+            return this.cor = this.cor + 1;
         }
     }
     
